@@ -2,12 +2,13 @@ package com.sportcenter.dto;
 
 import java.time.LocalDateTime;
 
-public class PrenotazioneRequest {
+public class PrenotazioneResponse {
 
+    private Long Id;
     private LocalDateTime dataOra;
     private String stato;
-    private Long utenteId;  // ci interessa solo questo nel request
-    private Long campoSportivoId; // ci interessa solo questo nel request
+    private Long utenteId;  // ci interessa solo questo nel reponse
+    private Long campoSportivoId; // ci interessa solo questo nel reponse
 
     public LocalDateTime getDataOra() {
         return dataOra;
@@ -33,7 +34,12 @@ public class PrenotazioneRequest {
     public void setCampoSportivoId(Long campoSportivoId) {
         this.campoSportivoId = campoSportivoId;
     }
-
+    public Long getId() {
+        return Id;
+    }
+    public void setId(Long id) {
+        Id = id;
+    }
     
 
 }
