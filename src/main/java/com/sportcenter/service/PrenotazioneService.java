@@ -21,8 +21,5 @@ public class PrenotazioneService {
     @Autowired
     private PrenotazioneRepository prenotazioneRepository;
 
-    public Prenotazione createPrenotazione(Long prenotazioneId, Long ) {
-        
-    }
 
 }
