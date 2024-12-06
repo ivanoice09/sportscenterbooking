@@ -29,7 +29,6 @@ public class PrenotazioneController {
     public List<Prenotazione> getAllPrenotazione() {
         return prenotazioneRepository.findAll();
     }
-    
 
     @PostMapping
     public PrenotazioneResponse create(@RequestBody PrenotazioneRequest prenotazioneRequest) {

@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public class PrenotazioneResponse {
 
-    private Long Id;
+    private Long id;
     private LocalDateTime dataOra;
     private String stato;
     private Long utenteId;  // ci interessa solo questo nel reponse
@@ -35,10 +35,10 @@ public class PrenotazioneResponse {
         this.campoSportivoId = campoSportivoId;
     }
     public Long getId() {
-        return Id;
+        return id;
     }
     public void setId(Long id) {
-        Id = id;
+        this.id = id;
     }
     
 

@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sportcenter.model.Ruolo;
 import com.sportcenter.repository.RuoloRepository;
 
-@RequestMapping("api/ruolo")
+@RequestMapping("api/ruoli")
 @RestController
 public class RuoloController {
 
