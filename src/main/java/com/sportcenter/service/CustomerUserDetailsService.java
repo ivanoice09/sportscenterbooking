@@ -10,11 +10,13 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
 
 import com.sportcenter.model.Ruolo;
 import com.sportcenter.model.Utente;
 import com.sportcenter.repository.UtenteRepository;
 
+@Service
 public class CustomerUserDetailsService implements UserDetailsService {
 
     @Autowired
